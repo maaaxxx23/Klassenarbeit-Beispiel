@@ -1,3 +1,14 @@
+"""
+Autor: Max Kohnen
+Klasse: ETS23
+Datum: 05.12.2023
+Funktionsbeschreibung:
+Das Programm zeigt die Temperatur und die Luftfeuchtigkeit auf einem Display an.
+Die Steuerung muss vorher über den Taster eingeschaltet werden.
+Die Steuerung lässt sich durch den Taster an und aus schalten.
+Version: 0.1; 21.11.2023
+"""
+
 import uos
 import machine
 import st7789py as st7789
