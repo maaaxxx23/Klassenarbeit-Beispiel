@@ -137,5 +137,5 @@ while True:
         pin_rot_led.off()
         pin_gruen_led.off()
         
-    letzter_taster_status = aktueller_taster_status # der letzte Taster Status wird auf den aktueller Taster Zustand gesetzt
+    letzter_taster_status = aktueller_taster_status # der letzte Taster Status wird auf den aktuellen Taster Zustand gesetzt
     utime.sleep(0.1) # kurze Pause um die CPU zu entlasten
